@@ -12,13 +12,13 @@ https://templatemo.com/tm-578-first-portfolio
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #141416; /* Clean deep background */
-  --secondary-color:              #ffffff; /* Readable high contrast text */
-  --section-bg-color:             #1a1a1e; /* Subtle slate container panels */
-  --dark-color:                   #ffffff;
-  --p-color:                      #b1b2b5; /* Soft modern secondary text */
-  --border-color:                 #2a2a30; /* Clean border dividers */
-  --featured-border-color:        #535da1;
+  --primary-color:                #2b2b2b;
+  --secondary-color:              #3a3a3a;
+  --section-bg-color:             #f9f9f9;
+  --dark-color:                   #000000;
+  --p-color:                      #717275;
+  --border-color:                 #e9eaeb;
+  --featured-border-color:        #727aab;
 
   --body-font-family:             'DM Sans', sans-serif;
 
@@ -42,9 +42,8 @@ https://templatemo.com/tm-578-first-portfolio
 }
 
 body {
-  background-color: #121214;
-  color: #c4c4c7;
-  font-family: var(--body-font-family); 
+    background: var(--white-color);
+    font-family: var(--body-font-family); 
 }
 
 
@@ -629,7 +628,7 @@ strong {
 -----------------------------------------*/
 .services,
 .featured {
-  background: #18181c;
+  background: var(--section-bg-color);
   border-top: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
 }
@@ -719,7 +718,7 @@ strong {
   PROJECTS              
 -----------------------------------------*/
 .projects-thumb {
-  background: #18181c;
+  background: var(--section-bg-color);
   border: 2px solid var(--white-color);
   border-radius: var(--border-radius-medium);
   position: relative;
@@ -770,7 +769,7 @@ strong {
   CONTACT              
 -----------------------------------------*/
 .contact {
-  background: #18181c;
+  background: var(--section-bg-color);
 }
 
 .contact-info {
@@ -795,10 +794,10 @@ strong {
   CUSTOM FORM               
 -----------------------------------------*/
 .custom-form .form-control {
-  background: #1f1f23;
-  color: #ffffff;
+  background: var(--white-color);
   box-shadow: none;
   border: 2px solid var(--border-color);
+  color: var(--p-color);
   margin-bottom: 24px;
   padding-top: 13px;
   padding-bottom: 13px;
@@ -1185,6 +1184,7 @@ strong {
     min-width: inherit;
   }
 }
+
 
 
 
